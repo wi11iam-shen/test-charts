@@ -1,0 +1,2101 @@
+[
+    {
+        "pokeID": 1,
+        "name": "Bulbasaur",
+        "category": "Seed Pokémon",
+        "description": "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokémon.",
+        "height": 7,
+        "weight": 69,
+        "region": "Kanto",
+        "generation": "Generation I",
+        "types": [
+            "Grass",
+            "Poison"
+        ],
+        "abilities": [
+            {
+                "name": "Overgrow",
+                "description": "Powers up Grass-type moves when the Pokémon's HP is low."
+            },
+            {
+                "name": "Chlorophyll",
+                "description": "Boosts the Pokémon's Speed stat in sunny weather."
+            }
+        ],
+        "stats": {
+            "hp": 45,
+            "attack": 49,
+            "defense": 49,
+            "special-attack": 65,
+            "special-defense": 65,
+            "speed": 45
+        },
+        "sprites": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+            "back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/1.gif",
+            "front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/1.gif",
+            "shiny_front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/1.gif",
+            "shiny_back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/1.gif"
+        },
+        "evolutions": [
+            {
+                "name": "Ivysaur",
+                "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png"
+            },
+            {
+                "name": "Venusaur",
+                "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png"
+            }
+        ]
+    },
+    {
+        "pokeID": 2,
+        "name": "Ivysaur",
+        "category": "Seed Pokémon",
+        "description": "When the bulb on its back grows large, it appears to lose the ability to stand on its hind legs.",
+        "height": 10,
+        "weight": 130,
+        "region": "Kanto",
+        "generation": "Generation I",
+        "types": [
+            "Grass",
+            "Poison"
+        ],
+        "abilities": [
+            {
+                "name": "Overgrow",
+                "description": "Powers up Grass-type moves when the Pokémon's HP is low."
+            },
+            {
+                "name": "Chlorophyll",
+                "description": "Boosts the Pokémon's Speed stat in sunny weather."
+            }
+        ],
+        "stats": {
+            "hp": 60,
+            "attack": 62,
+            "defense": 63,
+            "special-attack": 80,
+            "special-defense": 80,
+            "speed": 60
+        },
+        "sprites": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+            "back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/2.gif",
+            "front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/2.gif",
+            "shiny_front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/2.gif",
+            "shiny_back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/2.gif"
+        },
+        "evolutions": [
+            {
+                "name": "Venusaur",
+                "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png"
+            }
+        ]
+    },
+    {
+        "pokeID": 3,
+        "name": "Venusaur",
+        "category": "Seed Pokémon",
+        "description": "The plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.",
+        "height": 20,
+        "weight": 1000,
+        "region": "Kanto",
+        "generation": "Generation I",
+        "types": [
+            "Grass",
+            "Poison"
+        ],
+        "abilities": [
+            {
+                "name": "Overgrow",
+                "description": "Powers up Grass-type moves when the Pokémon's HP is low."
+            },
+            {
+                "name": "Chlorophyll",
+                "description": "Boosts the Pokémon's Speed stat in sunny weather."
+            }
+        ],
+        "stats": {
+            "hp": 80,
+            "attack": 82,
+            "defense": 83,
+            "special-attack": 100,
+            "special-defense": 100,
+            "speed": 80
+        },
+        "sprites": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
+            "back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/3.gif",
+            "front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/3.gif",
+            "shiny_front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/3.gif",
+            "shiny_back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/3.gif"
+        },
+        "evolutions": []
+    },
+    {
+        "pokeID": 4,
+        "name": "Charmander",
+        "category": "Lizard Pokémon",
+        "description": "Obviously prefers hot places. When it rains, steam is said to spout from the tip of its tail.",
+        "height": 6,
+        "weight": 85,
+        "region": "Kanto",
+        "generation": "Generation I",
+        "types": [
+            "Fire"
+        ],
+        "abilities": [
+            {
+                "name": "Blaze",
+                "description": "Powers up Fire-type moves when the Pokémon's HP is low."
+            },
+            {
+                "name": "Solar Power",
+                "description": "Boosts the Sp. Atk stat in sunny weather, but HP decreases every turn."
+            }
+        ],
+        "stats": {
+            "hp": 39,
+            "attack": 52,
+            "defense": 43,
+            "special-attack": 60,
+            "special-defense": 50,
+            "speed": 65
+        },
+        "sprites": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+            "back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/4.gif",
+            "front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/4.gif",
+            "shiny_front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/4.gif",
+            "shiny_back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/4.gif"
+        },
+        "evolutions": [
+            {
+                "name": "Charmeleon",
+                "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"
+            },
+            {
+                "name": "Charizard",
+                "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png"
+            }
+        ]
+    },
+    {
+        "pokeID": 5,
+        "name": "Charmeleon",
+        "category": "Flame Pokémon",
+        "description": "When it swings its burning tail, it elevates the temperature to unbearably high levels.",
+        "height": 11,
+        "weight": 190,
+        "region": "Kanto",
+        "generation": "Generation I",
+        "types": [
+            "Fire"
+        ],
+        "abilities": [
+            {
+                "name": "Blaze",
+                "description": "Powers up Fire-type moves when the Pokémon's HP is low."
+            },
+            {
+                "name": "Solar Power",
+                "description": "Boosts the Sp. Atk stat in sunny weather, but HP decreases every turn."
+            }
+        ],
+        "stats": {
+            "hp": 58,
+            "attack": 64,
+            "defense": 58,
+            "special-attack": 80,
+            "special-defense": 65,
+            "speed": 80
+        },
+        "sprites": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
+            "back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/5.gif",
+            "front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/5.gif",
+            "shiny_front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/5.gif",
+            "shiny_back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/5.gif"
+        },
+        "evolutions": [
+            {
+                "name": "Charizard",
+                "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png"
+            }
+        ]
+    },
+    {
+        "pokeID": 6,
+        "name": "Charizard",
+        "category": "Flame Pokémon",
+        "description": "Spits fire that is hot enough to melt boulders. Known to cause forest fires unintentionally.",
+        "height": 17,
+        "weight": 905,
+        "region": "Kanto",
+        "generation": "Generation I",
+        "types": [
+            "Fire",
+            "Flying"
+        ],
+        "abilities": [
+            {
+                "name": "Blaze",
+                "description": "Powers up Fire-type moves when the Pokémon's HP is low."
+            },
+            {
+                "name": "Solar Power",
+                "description": "Boosts the Sp. Atk stat in sunny weather, but HP decreases every turn."
+            }
+        ],
+        "stats": {
+            "hp": 78,
+            "attack": 84,
+            "defense": 78,
+            "special-attack": 109,
+            "special-defense": 85,
+            "speed": 100
+        },
+        "sprites": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+            "back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/6.gif",
+            "front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/6.gif",
+            "shiny_front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/6.gif",
+            "shiny_back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/6.gif"
+        },
+        "evolutions": []
+    },
+    {
+        "pokeID": 7,
+        "name": "Squirtle",
+        "category": "Tiny Turtle Pokémon",
+        "description": "After birth, its back swells and hardens into a shell. Powerfully sprays foam from its mouth.",
+        "height": 5,
+        "weight": 90,
+        "region": "Kanto",
+        "generation": "Generation I",
+        "types": [
+            "Water"
+        ],
+        "abilities": [
+            {
+                "name": "Torrent",
+                "description": "Powers up Water-type moves when the Pokémon's HP is low."
+            },
+            {
+                "name": "Rain Dish",
+                "description": "The Pokémon gradually regains HP in rain."
+            }
+        ],
+        "stats": {
+            "hp": 44,
+            "attack": 48,
+            "defense": 65,
+            "special-attack": 50,
+            "special-defense": 64,
+            "speed": 43
+        },
+        "sprites": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
+            "back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/7.gif",
+            "front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/7.gif",
+            "shiny_front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/7.gif",
+            "shiny_back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/7.gif"
+        },
+        "evolutions": [
+            {
+                "name": "Wartortle",
+                "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png"
+            },
+            {
+                "name": "Blastoise",
+                "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png"
+            }
+        ]
+    },
+    {
+        "pokeID": 8,
+        "name": "Wartortle",
+        "category": "Turtle Pokémon",
+        "description": "Often hides in water to stalk unwary prey. For swimming fast, it moves its ears to maintain balance.",
+        "height": 10,
+        "weight": 225,
+        "region": "Kanto",
+        "generation": "Generation I",
+        "types": [
+            "Water"
+        ],
+        "abilities": [
+            {
+                "name": "Torrent",
+                "description": "Powers up Water-type moves when the Pokémon's HP is low."
+            },
+            {
+                "name": "Rain Dish",
+                "description": "The Pokémon gradually regains HP in rain."
+            }
+        ],
+        "stats": {
+            "hp": 59,
+            "attack": 63,
+            "defense": 80,
+            "special-attack": 65,
+            "special-defense": 80,
+            "speed": 58
+        },
+        "sprites": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
+            "back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/8.gif",
+            "front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/8.gif",
+            "shiny_front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/8.gif",
+            "shiny_back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/8.gif"
+        },
+        "evolutions": [
+            {
+                "name": "Blastoise",
+                "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png"
+            }
+        ]
+    },
+    {
+        "pokeID": 9,
+        "name": "Blastoise",
+        "category": "Shellfish Pokémon",
+        "description": "The jet cannons on its shell can fire blasts of water capable of punching holes through thick steel.",
+        "height": 16,
+        "weight": 855,
+        "region": "Kanto",
+        "generation": "Generation I",
+        "types": [
+            "Water"
+        ],
+        "abilities": [
+            {
+                "name": "Torrent",
+                "description": "Powers up Water-type moves when the Pokémon's HP is low."
+            },
+            {
+                "name": "Rain Dish",
+                "description": "The Pokémon gradually regains HP in rain."
+            }
+        ],
+        "stats": {
+            "hp": 79,
+            "attack": 83,
+            "defense": 100,
+            "special-attack": 85,
+            "special-defense": 105,
+            "speed": 78
+        },
+        "sprites": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
+            "back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/9.gif",
+            "front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/9.gif",
+            "shiny_front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/9.gif",
+            "shiny_back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/9.gif"
+        },
+        "evolutions": []
+    },
+    {
+        "pokeID": 10,
+        "name": "Caterpie",
+        "category": "Worm Pokémon",
+        "description": "Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls.",
+        "height": 3,
+        "weight": 29,
+        "region": "Kanto",
+        "generation": "Generation I",
+        "types": [
+            "Bug"
+        ],
+        "abilities": [
+            {
+                "name": "Shield Dust",
+                "description": "Blocks the added effects of attacks taken."
+            },
+            {
+                "name": "Run Away",
+                "description": "Enables a sure getaway from wild Pokémon."
+            }
+        ],
+        "stats": {
+            "hp": 45,
+            "attack": 30,
+            "defense": 35,
+            "special-attack": 20,
+            "special-defense": 20,
+            "speed": 45
+        },
+        "sprites": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png",
+            "back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/10.gif",
+            "front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/10.gif",
+            "shiny_front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/10.gif",
+            "shiny_back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/10.gif"
+        },
+        "evolutions": [
+            {
+                "name": "Metapod",
+                "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png"
+            },
+            {
+                "name": "Butterfree",
+                "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png"
+            }
+        ]
+    },
+    {
+        "pokeID": 11,
+        "name": "Metapod",
+        "category": "Cocoon Pokémon",
+        "description": "This Pokémon is vulnerable to attack while its shell is soft, exposing its weak and tender body.",
+        "height": 7,
+        "weight": 99,
+        "region": "Kanto",
+        "generation": "Generation I",
+        "types": [
+            "Bug"
+        ],
+        "abilities": [
+            {
+                "name": "Shed Skin",
+                "description": "The Pokémon may heal its own status conditions by shedding its skin."
+            }
+        ],
+        "stats": {
+            "hp": 50,
+            "attack": 20,
+            "defense": 55,
+            "special-attack": 25,
+            "special-defense": 25,
+            "speed": 30
+        },
+        "sprites": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png",
+            "back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/11.gif",
+            "front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/11.gif",
+            "shiny_front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/11.gif",
+            "shiny_back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/11.gif"
+        },
+        "evolutions": [
+            {
+                "name": "Butterfree",
+                "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png"
+            }
+        ]
+    },
+    {
+        "pokeID": 12,
+        "name": "Butterfree",
+        "category": "Butterfly Pokémon",
+        "description": "In battle, it flaps its wings at great speed to release highly toxic dust into the air.",
+        "height": 11,
+        "weight": 320,
+        "region": "Kanto",
+        "generation": "Generation I",
+        "types": [
+            "Bug",
+            "Flying"
+        ],
+        "abilities": [
+            {
+                "name": "Compound Eyes",
+                "description": "The Pokémon's accuracy is boosted."
+            },
+            {
+                "name": "Tinted Lens",
+                "description": "The Pokémon can use \"not very effective\" moves to deal regular damage."
+            }
+        ],
+        "stats": {
+            "hp": 60,
+            "attack": 45,
+            "defense": 50,
+            "special-attack": 90,
+            "special-defense": 80,
+            "speed": 70
+        },
+        "sprites": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
+            "back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/12.gif",
+            "front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/12.gif",
+            "shiny_front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/12.gif",
+            "shiny_back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/12.gif"
+        },
+        "evolutions": []
+    },
+    {
+        "pokeID": 13,
+        "name": "Weedle",
+        "category": "Hairy Bug Pokémon",
+        "description": "Beware of the sharp stinger on its head. It hides in grass and bushes where it eats leaves.",
+        "height": 3,
+        "weight": 32,
+        "region": "Kanto",
+        "generation": "Generation I",
+        "types": [
+            "Bug",
+            "Poison"
+        ],
+        "abilities": [
+            {
+                "name": "Shield Dust",
+                "description": "Blocks the added effects of attacks taken."
+            },
+            {
+                "name": "Run Away",
+                "description": "Enables a sure getaway from wild Pokémon."
+            }
+        ],
+        "stats": {
+            "hp": 40,
+            "attack": 35,
+            "defense": 30,
+            "special-attack": 20,
+            "special-defense": 20,
+            "speed": 50
+        },
+        "sprites": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png",
+            "back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/13.gif",
+            "front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/13.gif",
+            "shiny_front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/13.gif",
+            "shiny_back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/13.gif"
+        },
+        "evolutions": [
+            {
+                "name": "Kakuna",
+                "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png"
+            },
+            {
+                "name": "Beedrill",
+                "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png"
+            }
+        ]
+    },
+    {
+        "pokeID": 14,
+        "name": "Kakuna",
+        "category": "Cocoon Pokémon",
+        "description": "Almost incapable of moving, this Pokémon can only harden its shell to protect itself from predators.",
+        "height": 6,
+        "weight": 100,
+        "region": "Kanto",
+        "generation": "Generation I",
+        "types": [
+            "Bug",
+            "Poison"
+        ],
+        "abilities": [
+            {
+                "name": "Shed Skin",
+                "description": "The Pokémon may heal its own status conditions by shedding its skin."
+            }
+        ],
+        "stats": {
+            "hp": 45,
+            "attack": 25,
+            "defense": 50,
+            "special-attack": 25,
+            "special-defense": 25,
+            "speed": 35
+        },
+        "sprites": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png",
+            "back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/14.gif",
+            "front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/14.gif",
+            "shiny_front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/14.gif",
+            "shiny_back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/14.gif"
+        },
+        "evolutions": [
+            {
+                "name": "Beedrill",
+                "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png"
+            }
+        ]
+    },
+    {
+        "pokeID": 15,
+        "name": "Beedrill",
+        "category": "Poison Bee Pokémon",
+        "description": "It has three poisonous stingers on its forelegs and its tail. They are used to jab its enemy repeatedly.",
+        "height": 10,
+        "weight": 295,
+        "region": "Kanto",
+        "generation": "Generation I",
+        "types": [
+            "Bug",
+            "Poison"
+        ],
+        "abilities": [
+            {
+                "name": "Swarm",
+                "description": "Powers up Bug-type moves when the Pokémon's HP is low."
+            },
+            {
+                "name": "Sniper",
+                "description": "Powers up moves if they become critical hits when attacking."
+            }
+        ],
+        "stats": {
+            "hp": 65,
+            "attack": 90,
+            "defense": 40,
+            "special-attack": 45,
+            "special-defense": 80,
+            "speed": 75
+        },
+        "sprites": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png",
+            "back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/15.gif",
+            "front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/15.gif",
+            "shiny_front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/15.gif",
+            "shiny_back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/15.gif"
+        },
+        "evolutions": []
+    },
+    {
+        "pokeID": 16,
+        "name": "Pidgey",
+        "category": "Tiny Bird Pokémon",
+        "description": "A common sight in forests and woods. It flaps its wings at ground level to kick up blinding sand.",
+        "height": 3,
+        "weight": 18,
+        "region": "Kanto",
+        "generation": "Generation I",
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "abilities": [
+            {
+                "name": "Keen Eye",
+                "description": "Prevents other Pokémon from lowering accuracy."
+            },
+            {
+                "name": "Tangled Feet",
+                "description": "Raises evasion if the Pokémon is confused."
+            }
+        ],
+        "stats": {
+            "hp": 40,
+            "attack": 45,
+            "defense": 40,
+            "special-attack": 35,
+            "special-defense": 35,
+            "speed": 56
+        },
+        "sprites": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png",
+            "back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/16.gif",
+            "front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/16.gif",
+            "shiny_front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/16.gif",
+            "shiny_back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/16.gif"
+        },
+        "evolutions": [
+            {
+                "name": "Pidgeotto",
+                "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png"
+            },
+            {
+                "name": "Pidgeot",
+                "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png"
+            }
+        ]
+    },
+    {
+        "pokeID": 17,
+        "name": "Pidgeotto",
+        "category": "Bird Pokémon",
+        "description": "Very protective of its sprawling territorial area, this Pokémon will fiercely peck at any intruder.",
+        "height": 11,
+        "weight": 300,
+        "region": "Kanto",
+        "generation": "Generation I",
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "abilities": [
+            {
+                "name": "Keen Eye",
+                "description": "Prevents other Pokémon from lowering accuracy."
+            },
+            {
+                "name": "Tangled Feet",
+                "description": "Raises evasion if the Pokémon is confused."
+            }
+        ],
+        "stats": {
+            "hp": 63,
+            "attack": 60,
+            "defense": 55,
+            "special-attack": 50,
+            "special-defense": 50,
+            "speed": 71
+        },
+        "sprites": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png",
+            "back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/17.gif",
+            "front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/17.gif",
+            "shiny_front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/17.gif",
+            "shiny_back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/17.gif"
+        },
+        "evolutions": [
+            {
+                "name": "Pidgeot",
+                "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png"
+            }
+        ]
+    },
+    {
+        "pokeID": 18,
+        "name": "Pidgeot",
+        "category": "Bird Pokémon",
+        "description": "This Pokémon has a dazzling plumage of beautifully glossy feathers. Many Trainers are captivated by the striking beauty of the feathers on its head, compelling them to choose Pidgeot as their Pokémon.",
+        "height": 15,
+        "weight": 395,
+        "region": "Kanto",
+        "generation": "Generation I",
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "abilities": [
+            {
+                "name": "Keen Eye",
+                "description": "Prevents other Pokémon from lowering accuracy."
+            },
+            {
+                "name": "Tangled Feet",
+                "description": "Raises evasion if the Pokémon is confused."
+            }
+        ],
+        "stats": {
+            "hp": 83,
+            "attack": 80,
+            "defense": 75,
+            "special-attack": 70,
+            "special-defense": 70,
+            "speed": 101
+        },
+        "sprites": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png",
+            "back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/18.gif",
+            "front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/18.gif",
+            "shiny_front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/18.gif",
+            "shiny_back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/18.gif"
+        },
+        "evolutions": []
+    },
+    {
+        "pokeID": 19,
+        "name": "Rattata",
+        "category": "Mouse Pokémon",
+        "description": "Will chew on anything with its fangs. If you see one, it is certain that 40 more live in the area.",
+        "height": 3,
+        "weight": 35,
+        "region": "Kanto",
+        "generation": "Generation I",
+        "types": [
+            "Normal"
+        ],
+        "abilities": [
+            {
+                "name": "Run Away",
+                "description": "Enables a sure getaway from wild Pokémon."
+            },
+            {
+                "name": "Guts",
+                "description": "Boosts the Attack stat if the Pokémon has a status condition."
+            }
+        ],
+        "stats": {
+            "hp": 30,
+            "attack": 56,
+            "defense": 35,
+            "special-attack": 25,
+            "special-defense": 35,
+            "speed": 72
+        },
+        "sprites": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png",
+            "back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/19.gif",
+            "front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/19.gif",
+            "shiny_front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/19.gif",
+            "shiny_back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/19.gif"
+        },
+        "evolutions": [
+            {
+                "name": "Raticate",
+                "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png"
+            }
+        ]
+    },
+    {
+        "pokeID": 20,
+        "name": "Raticate",
+        "category": "Mouse Pokémon",
+        "description": "Its hind feet are webbed. They act as flippers, so it can swim in rivers and hunt for prey.",
+        "height": 7,
+        "weight": 185,
+        "region": "Kanto",
+        "generation": "Generation I",
+        "types": [
+            "Normal"
+        ],
+        "abilities": [
+            {
+                "name": "Run Away",
+                "description": "Enables a sure getaway from wild Pokémon."
+            },
+            {
+                "name": "Guts",
+                "description": "Boosts the Attack stat if the Pokémon has a status condition."
+            }
+        ],
+        "stats": {
+            "hp": 55,
+            "attack": 81,
+            "defense": 60,
+            "special-attack": 50,
+            "special-defense": 70,
+            "speed": 97
+        },
+        "sprites": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png",
+            "back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/20.gif",
+            "front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/20.gif",
+            "shiny_front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/20.gif",
+            "shiny_back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/20.gif"
+        },
+        "evolutions": []
+    },
+    {
+        "pokeID": 21,
+        "name": "Spearow",
+        "category": "Tiny Bird Pokémon",
+        "description": "Eats bugs in grassy areas. It has to flap its short wings at high speed to stay airborne.",
+        "height": 3,
+        "weight": 20,
+        "region": "Kanto",
+        "generation": "Generation I",
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "abilities": [
+            {
+                "name": "Keen Eye",
+                "description": "Prevents other Pokémon from lowering accuracy."
+            }
+        ],
+        "stats": {
+            "hp": 40,
+            "attack": 60,
+            "defense": 30,
+            "special-attack": 31,
+            "special-defense": 31,
+            "speed": 70
+        },
+        "sprites": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png",
+            "back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/21.gif",
+            "front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/21.gif",
+            "shiny_front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/21.gif",
+            "shiny_back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/21.gif"
+        },
+        "evolutions": [
+            {
+                "name": "Fearow",
+                "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png"
+            }
+        ]
+    },
+    {
+        "pokeID": 22,
+        "name": "Fearow",
+        "category": "Beak Pokémon",
+        "description": "With its huge and magnificent wings, it can keep aloft without ever having to land for rest.",
+        "height": 12,
+        "weight": 380,
+        "region": "Kanto",
+        "generation": "Generation I",
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "abilities": [
+            {
+                "name": "Keen Eye",
+                "description": "Prevents other Pokémon from lowering accuracy."
+            }
+        ],
+        "stats": {
+            "hp": 65,
+            "attack": 90,
+            "defense": 65,
+            "special-attack": 61,
+            "special-defense": 61,
+            "speed": 100
+        },
+        "sprites": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png",
+            "back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/22.gif",
+            "front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/22.gif",
+            "shiny_front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/22.gif",
+            "shiny_back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/22.gif"
+        },
+        "evolutions": []
+    },
+    {
+        "pokeID": 23,
+        "name": "Ekans",
+        "category": "Snake Pokémon",
+        "description": "Moves silently and stealthily. Eats the eggs of birds, such as Pidgey and Spearow, whole.",
+        "height": 20,
+        "weight": 69,
+        "region": "Kanto",
+        "generation": "Generation I",
+        "types": [
+            "Poison"
+        ],
+        "abilities": [
+            {
+                "name": "Intimidate",
+                "description": "Lowers the opposing Pokémon's Attack stat."
+            },
+            {
+                "name": "Shed Skin",
+                "description": "The Pokémon may heal its own status conditions by shedding its skin."
+            }
+        ],
+        "stats": {
+            "hp": 35,
+            "attack": 60,
+            "defense": 44,
+            "special-attack": 40,
+            "special-defense": 54,
+            "speed": 55
+        },
+        "sprites": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png",
+            "back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/23.gif",
+            "front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/23.gif",
+            "shiny_front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/23.gif",
+            "shiny_back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/23.gif"
+        },
+        "evolutions": [
+            {
+                "name": "Arbok",
+                "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png"
+            }
+        ]
+    },
+    {
+        "pokeID": 24,
+        "name": "Arbok",
+        "category": "Cobra Pokémon",
+        "description": "The frightening patterns on its belly have been studied. Six variations have been confirmed.",
+        "height": 35,
+        "weight": 650,
+        "region": "Kanto",
+        "generation": "Generation I",
+        "types": [
+            "Poison"
+        ],
+        "abilities": [
+            {
+                "name": "Intimidate",
+                "description": "Lowers the opposing Pokémon's Attack stat."
+            },
+            {
+                "name": "Shed Skin",
+                "description": "The Pokémon may heal its own status conditions by shedding its skin."
+            }
+        ],
+        "stats": {
+            "hp": 60,
+            "attack": 85,
+            "defense": 69,
+            "special-attack": 65,
+            "special-defense": 79,
+            "speed": 80
+        },
+        "sprites": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png",
+            "back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/24.gif",
+            "front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/24.gif",
+            "shiny_front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/24.gif",
+            "shiny_back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/24.gif"
+        },
+        "evolutions": []
+    },
+    {
+        "pokeID": 25,
+        "name": "Pikachu",
+        "category": "Mouse Pokémon",
+        "description": "It has small electric sacs on both its cheeks. If threatened, it looses electric charges from the sacs.",
+        "height": 4,
+        "weight": 60,
+        "region": "Kanto",
+        "generation": "Generation I",
+        "types": [
+            "Electric"
+        ],
+        "abilities": [
+            {
+                "name": "Static",
+                "description": "Contact with the Pokémon may cause paralysis."
+            }
+        ],
+        "stats": {
+            "hp": 35,
+            "attack": 55,
+            "defense": 40,
+            "special-attack": 50,
+            "special-defense": 50,
+            "speed": 90
+        },
+        "sprites": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+            "back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/25.gif",
+            "front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/25.gif",
+            "shiny_front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/25.gif",
+            "shiny_back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/25.gif"
+        },
+        "evolutions": [
+            {
+                "name": "Raichu",
+                "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png"
+            }
+        ]
+    },
+    {
+        "pokeID": 26,
+        "name": "Raichu",
+        "category": "Mouse Poke Ball",
+        "description": "Its long tail serves as a ground to protect itself from its own high voltage power.",
+        "height": 8,
+        "weight": 300,
+        "region": "Kanto",
+        "generation": "Generation I",
+        "types": [
+            "Electric"
+        ],
+        "abilities": [
+            {
+                "name": "Static",
+                "description": "Contact with the Pokémon may cause paralysis."
+            }
+        ],
+        "stats": {
+            "hp": 60,
+            "attack": 90,
+            "defense": 55,
+            "special-attack": 90,
+            "special-defense": 80,
+            "speed": 110
+        },
+        "sprites": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png",
+            "back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/26.gif",
+            "front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/26.gif",
+            "shiny_front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/26.gif",
+            "shiny_back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/26.gif"
+        },
+        "evolutions": []
+    },
+    {
+        "pokeID": 27,
+        "name": "Sandshrew",
+        "category": "Mouse Poke Ball",
+        "description": "Sandshrew's body is configured to absorb water withoutsound. It is a common sight in deserts.",
+        "height": 6,
+        "weight": 120,
+        "region": "Kanto",
+        "generation": "Generation I",
+        "types": [
+            "Ground"
+        ],
+        "abilities": [
+            {
+                "name": "Sand Veil",
+                "description": "Boosts the Pokémon's evasion in a sandstorm."
+            }
+        ],
+        "stats": {
+            "hp": 50,
+            "attack": 75,
+            "defense": 85,
+            "special-attack": 20,
+            "special-defense": 30,
+            "speed": 40
+        },
+        "sprites": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png",
+            "back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/27.gif",
+            "front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/27.gif",
+            "shiny_front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/27.gif",
+            "shiny_back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/27.gif"
+        },
+        "evolutions": [
+            {
+                "name": "Sandslash",
+                "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png"
+            }
+        ]
+    },
+    {
+        "pokeID": 28,
+        "name": "Sandslash",
+        "category": "Mouse Pokémon",
+        "description": "Sandslash's body is covered by tough spikes, which are hardened sections of its hide. It can roll into a ball to attack or escape.",
+        "height": 10,
+        "weight": 295,
+        "region": "Kanto",
+        "generation": "Generation I",
+        "types": [
+            "Ground"
+        ],
+        "abilities": [
+            {
+                "name": "Sand Veil",
+                "description": "Boosts the Pokémon's evasion in a sandstorm."
+            }
+        ],
+        "stats": {
+            "hp": 75,
+            "attack": 100,
+            "defense": 110,
+            "special-attack": 45,
+            "special-defense": 55,
+            "speed": 65
+        },
+        "sprites": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png",
+            "back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/28.gif",
+            "front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/28.gif",
+            "shiny_front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/28.gif",
+            "shiny_back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/28.gif"
+        },
+        "evolutions": []
+    },
+    {
+        "pokeID": 29,
+        "name": "Nidoran♀",
+        "category": "Poison Pin Pokémon",
+        "description": "Nidoran♀ has barbs that secrete a powerful poison. They are thought to have developed as protection for this small-bodied Pokémon. When enraged, it releases a horrible toxin from its horn.",
+        "height": 4,
+        "weight": 70,
+        "region": "Kanto",
+        "generation": "Generation I",
+        "types": [
+            "Poison"
+        ],
+        "abilities": [
+            {
+                "name": "Poison Point",
+                "description": "Contact with the Pokémon may poison the attacker."
+            },
+            {
+                "name": "Rivalry",
+                "description": "Deals more damage to a Pokémon of the same gender."
+            }
+        ],
+        "stats": {
+            "hp": 55,
+            "attack": 47,
+            "defense": 52,
+            "special-attack": 40,
+            "special-defense": 40,
+            "speed": 41
+        },
+        "sprites": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png",
+            "back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/29.gif",
+            "front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/29.gif",
+            "shiny_front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/29.gif",
+            "shiny_back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/29.gif"
+        },
+        "evolutions": [
+            {
+                "name": "Nidorina",
+                "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png"
+            }
+        ]
+    },
+    {
+        "pokeID": 30,
+        "name": "Nidorina",
+        "category": "Poison Pin Pokémon",
+        "description": "When Nidorina are with their friends or family, they keep their barbs tucked away to prevent hurting each other. This Pokémon appears to become nervous if separated from the others.",
+        "height": 8,
+        "weight": 200,
+        "region": "Kanto",
+        "generation": "Generation I",
+        "types": [
+            "Poison"
+        ],
+        "abilities": [
+            {
+                "name": "Poison Point",
+                "description": "Contact with the Pokémon may poison the attacker."
+            },
+            {
+                "name": "Rivalry",
+                "description": "Deals more damage to a Pokémon of the same gender."
+            }
+        ],
+        "stats": {
+            "hp": 70,
+            "attack": 62,
+            "defense": 67,
+            "special-attack": 55,
+            "special-defense": 55,
+            "speed": 56
+        },
+        "sprites": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png",
+            "back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/30.gif",
+            "front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/30.gif",
+            "shiny_front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/30.gif",
+            "shiny_back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/30.gif"
+        },
+        "evolutions": [
+            {
+                "name": "Nidoqueen",
+                "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png"
+            }
+        ]
+    },
+    {
+        "pokeID": 31,
+        "name": "Nidoqueen",
+        "category": "Drill Pokémon",
+        "description": "Nidoqueen's body is encased in extremely hard scales. It is adept at sending foes flying with harsh tackles. This Pokémon is at its strongest when it is defending its young.",
+        "height": 13,
+        "weight": 600,
+        "region": "Kanto",
+        "generation": "Generation I",
+        "types": [
+            "Poison",
+            "Ground"
+        ],
+        "abilities": [
+            {
+                "name": "Poison Point",
+                "description": "Contact with the Pokémon may poison the attacker."
+            },
+            {
+                "name": "Rivalry",
+                "description": "Deals more damage to a Pokémon of the same gender."
+            }
+        ],
+        "stats": {
+            "hp": 90,
+            "attack": 92,
+            "defense": 87,
+            "special-attack": 75,
+            "special-defense": 85,
+            "speed": 76
+        },
+        "sprites": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png",
+            "back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/31.gif",
+            "front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/31.gif",
+            "shiny_front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/31.gif",
+            "shiny_back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/31.gif"
+        },
+        "evolutions": []
+    },
+    {
+        "pokeID": 32,
+        "name": "Nidoran♂",
+        "category": "Poison Pin Pokémon",
+        "description": "Nidoran♂ has developed muscles for moving its ears. Thanks to them, the ears can be freely moved in any direction. Even the slightest sound does not escape this Pokémon's notice.",
+        "height": 5,
+        "weight": 90,
+        "region": "Kanto",
+        "generation": "Generation I",
+        "types": [
+            "Poison"
+        ],
+        "abilities": [
+            {
+                "name": "Poison Point",
+                "description": "Contact with the Pokémon may poison the attacker."
+            },
+            {
+                "name": "Rivalry",
+                "description": "Deals more damage to a Pokémon of the same gender."
+            }
+        ],
+        "stats": {
+            "hp": 46,
+            "attack": 57,
+            "defense": 40,
+            "special-attack": 40,
+            "special-defense": 40,
+            "speed": 50
+        },
+        "sprites": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png",
+            "back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/32.gif",
+            "front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/32.gif",
+            "shiny_front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/32.gif",
+            "shiny_back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/32.gif"
+        },
+        "evolutions": [
+            {
+                "name": "Nidorino",
+                "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png"
+            }
+        ]
+    },
+    {
+        "pokeID": 33,
+        "name": "Nidorino",
+        "category": "Poison Pin Pokémon",
+        "description": "Nidorino has a horn that is harder than a diamond. If it senses a hostile presence, all the barbs on its back bristle up at once, and it challenges the foe with all its might.",
+        "height": 9,
+        "weight": 195,
+        "region": "Kanto",
+        "generation": "Generation I",
+        "types": [
+            "Poison"
+        ],
+        "abilities": [
+            {
+                "name": "Poison Point",
+                "description": "Contact with the Pokémon may poison the attacker."
+            },
+            {
+                "name": "Rivalry",
+                "description": "Deals more damage to a Pokémon of the same gender."
+            }
+        ],
+        "stats": {
+            "hp": 61,
+            "attack": 72,
+            "defense": 57,
+            "special-attack": 55,
+            "special-defense": 55,
+            "speed": 65
+        },
+        "sprites": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png",
+            "back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/33.gif",
+            "front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/33.gif",
+            "shiny_front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/33.gif",
+            "shiny_back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/33.gif"
+        },
+        "evolutions": [
+            {
+                "name": "Nidoking",
+                "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png"
+            }
+        ]
+    },
+    {
+        "pokeID": 34,
+        "name": "Nidoking",
+        "category": "Drill Pokémon",
+        "description": "Nidoking's thick tail packs enormously destructive power. With one swing, it can topple a metal transmission tower. Once this Pokémon goes on a rampage, there is no stopping it.",
+        "height": 14,
+        "weight": 620,
+        "region": "Kanto",
+        "generation": "Generation I",
+        "types": [
+            "Poison",
+            "Ground"
+        ],
+        "abilities": [
+            {
+                "name": "Poison Point",
+                "description": "Contact with the Pokeomon may poison the attacker."
+            }
+        ],
+        "stats": {
+            "hp": 81,
+            "attack": 102,
+            "defense": 77,
+            "special-attack": 85,
+            "special-defense": 75,
+            "speed": 85
+        },
+        "sprites": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png",
+            "back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/34.gif",
+            "front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/34.gif",
+            "shiny_front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/34.gif",
+            "shiny_back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/34.gif"
+        },
+        "evolutions": []
+    },
+    {
+        "pokeID": 35,
+        "name": "Clefairy",
+        "category": "Fairy Pokeomon",
+        "description": "It is said to be able change the weather by changing its fleece color.",
+        "height": 6,
+        "weight": 75,
+        "region": "Kanto",
+        "generation": "Generation I",
+        "types": [
+            "Fairy"
+        ],
+        "abilities": [
+            {
+                "name": "Cute Charm",
+                "description": "Contact with the Pokeomon may cause infatuation."
+            },
+            {
+                "name": "Magic Guard",
+                "description": "The Pokeomon only takes damage from attacks."
+            }
+        ],
+        "stats": {
+            "hp": 70,
+            "attack": 45,
+            "defense": 48,
+            "special-attack": 60,
+            "special-defense": 65,
+            "speed": 35
+        },
+        "sprites": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png",
+            "back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/35.gif",
+            "front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/35.gif",
+            "shiny_front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/35.gif",
+            "shiny_back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/35.gif"
+        },
+        "evolutions": [
+            {
+                "name": "Clefable",
+                "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png"
+            }
+        ]
+    },
+    {
+        "pokeID": 36,
+        "name": "Clefable",
+        "category": "Fairy Pokémon",
+        "description": "A timid fairy Pokémon that is rarely seen, it will run and hide the moment it senses people.",
+        "height": 13,
+        "weight": 400,
+        "region": "Kanto",
+        "generation": "Generation I",
+        "types": [
+            "Fairy"
+        ],
+        "abilities": [
+            {
+                "name": "Cute Charm",
+                "description": "Contact with the Pokémon may cause infatuation."
+            },
+            {
+                "name": "Magic Guard",
+                "description": "The Pokémon only takes damage from attacks."
+            }
+        ],
+        "stats": {
+            "hp": 95,
+            "attack": 70,
+            "defense": 73,
+            "special-attack": 95,
+            "special-defense": 90,
+            "speed": 60
+        },
+        "sprites": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png",
+            "back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/36.gif",
+            "front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/36.gif",
+            "shiny_front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/36.gif",
+            "shiny_back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/36.gif"
+        },
+        "evolutions": []
+    },
+    {
+        "pokeID": 37,
+        "name": "Vulpix",
+        "category": "Fox Pokémon",
+        "description": "At the time of birth, it has just one tail. The tail splits from its tip as it grows older.",
+        "height": 6,
+        "weight": 99,
+        "region": "Kanto",
+        "generation": "Generation I",
+        "types": [
+            "Fire"
+        ],
+        "abilities": [
+            {
+                "name": "Flash Fire",
+                "description": "Powers up the Pokémon's Fire-type moves if it's hit by one."
+            }
+        ],
+        "stats": {
+            "hp": 38,
+            "attack": 41,
+            "defense": 40,
+            "special-attack": 50,
+            "special-defense": 65,
+            "speed": 65
+        },
+        "sprites": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png",
+            "back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/37.gif",
+            "front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/37.gif",
+            "shiny_front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/37.gif",
+            "shiny_back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/37.gif"
+        },
+        "evolutions": [
+            {
+                "name": "Ninetales",
+                "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png"
+            }
+        ]
+    },
+    {
+        "pokeID": 38,
+        "name": "Ninetales",
+        "category": "Fox Pokémon",
+        "description": "It is said to live 1,000 years, and each of its tails is loaded with supernatural powers.",
+        "height": 11,
+        "weight": 199,
+        "region": "Kanto",
+        "generation": "Generation I",
+        "types": [
+            "Fire"
+        ],
+        "abilities": [
+            {
+                "name": "Flash Fire",
+                "description": "Powers up the Pokémon's Fire-type moves if it's hit by one."
+            }
+        ],
+        "stats": {
+            "hp": 73,
+            "attack": 76,
+            "defense": 75,
+            "special-attack": 81,
+            "special-defense": 100,
+            "speed": 100
+        },
+        "sprites": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png",
+            "back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/38.gif",
+            "front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/38.gif",
+            "shiny_front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/38.gif",
+            "shiny_back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/38.gif"
+        },
+        "evolutions": []
+    },
+    {
+        "pokeID": 39,
+        "name": "Jigglypuff",
+        "category": "Balloon Pokémon",
+        "description": "Jigglypuff's song puts anyone who hears it to sleep. The sound waves of its singing voice match the brain waves of someone in a deep sleep.",
+        "height": 5,
+        "weight": 55,
+        "region": "Kanto",
+        "generation": "Generation I",
+        "types": [
+            "Normal",
+            "Fairy"
+        ],
+        "abilities": [
+            {
+                "name": "Cute Charm",
+                "description": "Contact with the Pokémon may cause infatuation."
+            },
+            {
+                "name": "Competitive",
+                "description": "Boosts the Sp. Atk stat sharply when a stat is lowered."
+            }
+        ],
+        "stats": {
+            "hp": 115,
+            "attack": 45,
+            "defense": 20,
+            "special-attack": 45,
+            "special-defense": 25,
+            "speed": 20
+        },
+        "sprites": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
+            "back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/39.gif",
+            "front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/39.gif",
+            "shiny_front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/39.gif",
+            "shiny_back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/39.gif"
+        },
+        "evolutions": [
+            {
+                "name": "Wigglytuff",
+                "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png"
+            }
+        ]
+    },
+    {
+        "pokeID": 40,
+        "name": "Wigglytuff",
+        "category": "Balloon Pokémon",
+        "description": "The body is soft and rubbery. When angered, it will suck in air and inflate itself to an enormous size.",
+        "height": 10,
+        "weight": 120,
+        "region": "Kanto",
+        "generation": "Generation I",
+        "types": [
+            "Normal",
+            "Fairy"
+        ],
+        "abilities": [
+            {
+                "name": "Cute Charm",
+                "description": "Contact with the Pokémon may cause infatuation."
+            },
+            {
+                "name": "Competitive",
+                "description": "Boosts the Sp. Atk stat sharply when a stat is lowered."
+            }
+        ],
+        "stats": {
+            "hp": 140,
+            "attack": 70,
+            "defense": 45,
+            "special-attack": 85,
+            "special-defense": 50,
+            "speed": 45
+        },
+        "sprites": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png",
+            "back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/40.gif",
+            "front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/40.gif",
+            "shiny_front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/40.gif",
+            "shiny_back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/40.gif"
+        },
+        "evolutions": []
+    },
+    {
+        "pokeID": 41,
+        "name": "Zubat",
+        "category": "Bat Pokémon",
+        "description": "Emits ultrasonic cries while it flies. They act as a sonar used to check for objects in its way.",
+        "height": 8,
+        "weight": 75,
+        "region": "Kanto",
+        "generation": "Generation I",
+        "types": [
+            "Poison",
+            "Flying"
+        ],
+        "abilities": [
+            {
+                "name": "Inner Focus",
+                "description": "Protects the Pokémon from flinching."
+            },
+            {
+                "name": "Infiltrator",
+                "description": "Passes through the opposing Pokémon's barrier and strikes."
+            }
+        ],
+        "stats": {
+            "hp": 40,
+            "attack": 45,
+            "defense": 35,
+            "special-attack": 30,
+            "special-defense": 40,
+            "speed": 55
+        },
+        "sprites": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png",
+            "back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/41.gif",
+            "front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/41.gif",
+            "shiny_front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/41.gif",
+            "shiny_back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/41.gif"
+        },
+        "evolutions": [
+            {
+                "name": "Golbat",
+                "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png"
+            }
+        ]
+    },
+    {
+        "pokeID": 42,
+        "name": "Golbat",
+        "category": "Bat Pokémon",
+        "description": "It attacks in a stealthy manner, without warning. Its sharp fangs are used to bite and suck blood.",
+        "height": 16,
+        "weight": 550,
+        "region": "Kanto",
+        "generation": "Generation I",
+        "types": [
+            "Poison",
+            "Flying"
+        ],
+        "abilities": [
+            {
+                "name": "Inner Focus",
+                "description": "Protects the Pokémon from flinching."
+            },
+            {
+                "name": "Infiltrator",
+                "description": "Passes through the opposing Pokémon's barrier and strikes."
+            }
+        ],
+        "stats": {
+            "hp": 75,
+            "attack": 80,
+            "defense": 70,
+            "special-attack": 65,
+            "special-defense": 75,
+            "speed": 90
+        },
+        "sprites": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png",
+            "back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/42.gif",
+            "front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/42.gif",
+            "shiny_front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/42.gif",
+            "shiny_back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/42.gif"
+        },
+        "evolutions": [
+            {
+                "name": "Crobat",
+                "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/169.png"
+            }
+        ]
+    },
+    {
+        "pokeID": 43,
+        "name": "Oddish",
+        "category": "Weed Pokémon",
+        "description": "During the day, it stays in the cold underground to avoid the sun. It grows by bathing in moonlight.",
+        "height": 5,
+        "weight": 54,
+        "region": "Kanto",
+        "generation": "Generation I",
+        "types": [
+            "Grass",
+            "Poison"
+        ],
+        "abilities": [
+            {
+                "name": "Chlorophyll",
+                "description": "Boosts the Pokémon's Speed stat in sunshine."
+            }
+        ],
+        "stats": {
+            "hp": 45,
+            "attack": 50,
+            "defense": 55,
+            "special-attack": 75,
+            "special-defense": 65,
+            "speed": 30
+        },
+        "sprites": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png",
+            "back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/43.gif",
+            "front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/43.gif",
+            "shiny_front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/43.gif",
+            "shiny_back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/43.gif"
+        },
+        "evolutions": [
+            {
+                "name": "Gloom",
+                "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png"
+            }
+        ]
+    },
+    {
+        "pokeID": 44,
+        "name": "Gloom",
+        "category": "Weed Pokémon",
+        "description": "The fluid that oozes from its mouth isn't drool. It is a nectar that is used to attract prey.",
+        "height": 8,
+        "weight": 86,
+        "region": "Kanto",
+        "generation": "Generation I",
+        "types": [
+            "Grass",
+            "Poison"
+        ],
+        "abilities": [
+            {
+                "name": "Chlorophyll",
+                "description": "Boosts the Pokémon's Speed stat in sunshine."
+            }
+        ],
+        "stats": {
+            "hp": 60,
+            "attack": 65,
+            "defense": 70,
+            "special-attack": 85,
+            "special-defense": 75,
+            "speed": 40
+        },
+        "sprites": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png",
+            "back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/44.gif",
+            "front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/44.gif",
+            "shiny_front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/44.gif",
+            "shiny_back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/44.gif"
+        },
+        "evolutions": [
+            {
+                "name": "Vileplume",
+                "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png"
+            }
+        ]
+    },
+    {
+        "pokeID": 45,
+        "name": "Vileplume",
+        "category": "Flower Pokémon",
+        "description": "It has the world's largest petals. With every step, the petals shake out heavy clouds of toxic pollen.",
+        "height": 12,
+        "weight": 186,
+        "region": "Kanto",
+        "generation": "Generation I",
+        "types": [
+            "Grass",
+            "Poison"
+        ],
+        "abilities": [
+            {
+                "name": "Chlorophyll",
+                "description": "Boosts the Pokémon's Speed stat in sunshine."
+            }
+        ],
+        "stats": {
+            "hp": 75,
+            "attack": 80,
+            "defense": 85,
+            "special-attack": 110,
+            "special-defense": 90,
+            "speed": 50
+        },
+        "sprites": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png",
+            "back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/45.gif",
+            "front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/45.gif",
+            "shiny_front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/45.gif",
+            "shiny_back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/45.gif"
+        },
+        "evolutions": []
+    },
+    {
+        "pokeID": 46,
+        "name": "Paras",
+        "category": "Mushroom Pokémon",
+        "description": "Burrows under the ground to gnaw on tree roots. The mushrooms on its back absorb most of the nutrition.",
+        "height": 3,
+        "weight": 54,
+        "region": "Kanto",
+        "generation": "Generation I",
+        "types": [
+            "Bug",
+            "Grass"
+        ],
+        "abilities": [
+            {
+                "name": "Effect Spore",
+                "description": "Contact may paralyze, poison, or cause sleep."
+            },
+            {
+                "name": "Dry Skin",
+                "description": "Reduces HP if it is hot. Water restores HP."
+            }
+        ],
+        "stats": {
+            "hp": 35,
+            "attack": 70,
+            "defense": 55,
+            "special-attack": 45,
+            "special-defense": 55,
+            "speed": 25
+        },
+        "sprites": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png",
+            "back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/46.gif",
+            "front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/46.gif",
+            "shiny_front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/46.gif",
+            "shiny_back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/46.gif"
+        },
+        "evolutions": [
+            {
+                "name": "Parasect",
+                "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png"
+            }
+        ]
+    },
+    {
+        "pokeID": 47,
+        "name": "Parasect",
+        "category": "Mushroom Pokémon",
+        "description": "A host-parasite pair in which the parasite mushroom has taken over the host bug. Prefers damp places.",
+        "height": 10,
+        "weight": 295,
+        "region": "Kanto",
+        "generation": "Generation I",
+        "types": [
+            "Bug",
+            "Grass"
+        ],
+        "abilities": [
+            {
+                "name": "Effect Spore",
+                "description": "Contact may paralyze, poison, or cause sleep."
+            },
+            {
+                "name": "Dry Skin",
+                "description": "Reduces HP if it is hot. Water restores HP."
+            }
+        ],
+        "stats": {
+            "hp": 60,
+            "attack": 95,
+            "defense": 80,
+            "special-attack": 60,
+            "special-defense": 80,
+            "speed": 30
+        },
+        "sprites": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png",
+            "back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/47.gif",
+            "front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/47.gif",
+            "shiny_front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/47.gif",
+            "shiny_back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/47.gif"
+        },
+        "evolutions": []
+    },
+    {
+        "pokeID": 48,
+        "name": "Venonat",
+        "category": "Insect Pokémon",
+        "description": "Its large eyes act as radar. In a bright place, you can see that they are clusters of many tiny eyes.",
+        "height": 10,
+        "weight": 300,
+        "region": "Kanto",
+        "generation": "Generation I",
+        "types": [
+            "Bug",
+            "Poison"
+        ],
+        "abilities": [
+            {
+                "name": "Compound Eyes",
+                "description": "The Pokémon's accuracy is boosted."
+            },
+            {
+                "name": "Tinted Lens",
+                "description": "Powers up “not very effective” moves."
+            }
+        ],
+        "stats": {
+            "hp": 60,
+            "attack": 55,
+            "defense": 50,
+            "special-attack": 40,
+            "special-defense": 55,
+            "speed": 45
+        },
+        "sprites": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png",
+            "back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/48.gif",
+            "front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/48.gif",
+            "shiny_front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/48.gif",
+            "shiny_back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/48.gif"
+        },
+        "evolutions": [
+            {
+                "name": "Venomoth",
+                "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png"
+            }
+        ]
+    },
+    {
+        "pokeID": 49,
+        "name": "Venomoth",
+        "category": "Poison Moth Pokémon",
+        "description": "The dust-like scales covering its wings are color-coded to indicate the kinds of poison it has.",
+        "height": 15,
+        "weight": 1250,
+        "region": "Kanto",
+        "generation": "Generation I",
+        "types": [
+            "Bug",
+            "Poison"
+        ],
+        "abilities": [
+            {
+                "name": "Shield Dust",
+                "description": "Blocks the added effects of attacks taken."
+            },
+            {
+                "name": "Tinted Lens",
+                "description": "Powers up “not very effective” moves."
+            }
+        ],
+        "stats": {
+            "hp": 70,
+            "attack": 65,
+            "defense": 60,
+            "special-attack": 90,
+            "special-defense": 75,
+            "speed": 90
+        },
+        "sprites": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png",
+            "back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/49.gif",
+            "front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/49.gif",
+            "shiny_front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/49.gif",
+            "shiny_back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/49.gif"
+        },
+        "evolutions": []
+    },
+    {
+        "pokeID": 50,
+        "name": "Diglett",
+        "category": "Mole Pokémon",
+        "description": "Lives about one yard underground where it feeds on plant roots. It sometimes appears above ground.",
+        "height": 2,
+        "weight": 8,
+        "region": "Kanto",
+        "generation": "Generation I",
+        "types": [
+            "Ground"
+        ],
+        "abilities": [
+            {
+                "name": "Sand Veil",
+                "description": "Boosts the Pokémon's evasion in a sandstorm."
+            },
+            {
+                "name": "Arena Trap",
+                "description": "Prevents the foe from fleeing."
+            }
+        ],
+        "stats": {
+            "hp": 10,
+            "attack": 55,
+            "defense": 25,
+            "special-attack": 35,
+            "special-defense": 45,
+            "speed": 95
+        },
+        "sprites": {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png",
+            "back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/50.gif",
+            "front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/50.gif",
+            "shiny_front_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/50.gif",
+            "shiny_back_animation": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/50.gif"
+        },
+        "evolutions": [
+            {
+                "name": "Dugtrio",
+                "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png"
+            }
+        ]
+    }
+]

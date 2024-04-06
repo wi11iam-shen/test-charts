@@ -1,24 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import data from './data/data.json';
+
+import SimpleLineChart from './SimpleLineChart';
+import SynchronizedLineChart from './SynchronizedLineChart';
+import AreaChart from './AreaChart';
+import PromoPrediction from './PromoPrediction';
+import MUIPieChart from './MUIPieChart';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <SimpleLineChart data={data}/>
+      <SynchronizedLineChart data={data}/>
+      <AreaChart data={data}/>
+      <PromoPrediction />
+      <MUIPieChart />
+    </>
   );
 }
 
