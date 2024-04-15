@@ -3,7 +3,7 @@ import MUICircularProgress from "./MUICircularProgress";
 
 const NewPredictionLayout = () => {
   return (
-    <div className="flex relative justify-center items-stretch bg-gray-200 py-10 px-10 w-full max-w-screen-xl mx-auto">
+    <div className="flex relative justify-center items-stretch bg-gray-200 py-10 px-10 w-full max-w-screen-2xl mx-auto">
       {/* Prediction Container */}
       <div className="bg-[#fcf9d9] p-10 rounded-lg shadow-lg relative">
         <h1 className="text-lg text-[#384e09] text-center font-bold uppercase -mt-5 mb-3">
@@ -23,7 +23,7 @@ const NewPredictionLayout = () => {
             </div>
           </div>
           <div className="flex flex-col justify-center items-center p-8">
-            <MUICircularProgress color="#ffad4c" />
+            <MUICircularProgress color="#ffad4c" percentage={65}/>
             <h2 className="text-lg text-center mt-2">Budget Utilization</h2>
           </div>
           <div className="flex flex-col justify-between items-center">
@@ -57,7 +57,7 @@ const NewPredictionLayout = () => {
           changes below to help you achieve a higher level of participation.
         </p>
         <div className="flex flex-col justify-center items-center p-8">
-          <MUICircularProgress color="#27ae60" />
+          <MUICircularProgress color="#27ae60" percentage={95} />
         </div>
         <button className="bg-[#80c45b] text-white rounded-md px-4 py-2 block mx-auto">
           Know how &gt;

@@ -1,16 +1,14 @@
 import React from "react";
-import Stack from "@mui/joy/Stack";
-import Typography from "@mui/joy/Typography";
-import CircularProgress from "@mui/joy/CircularProgress";
+import { Stack, Typography, CircularProgress } from "@mui/joy";
 import { useCountUp } from "use-count-up";
 import { CssVarsProvider } from "@mui/joy/styles";
 
-const MUICircularProgress = ({ color }) => {
-  const { value: value2 } = useCountUp({
+const MUICircularProgress = ({ color, percentage }) => {
+  const { value: progressValue } = useCountUp({
     isCounting: true,
     duration: 2,
     start: 0,
-    end: 65,
+    end: percentage,
   });
 
   return (
@@ -18,8 +16,10 @@ const MUICircularProgress = ({ color }) => {
       <CssVarsProvider>
         <CircularProgress
           determinate
-          value={value2}
+          value={progressValue}
           sx={{
+            boxShadow:
+              "inset 5px 21px 5px 11px rgba(0, 0, 0, 0.5), 0px 4px 5px 0px rgba(0, 0, 0, 0.5)",
             "--CircularProgress-size": "200px",
             "--CircularProgress-trackThickness": "30px",
             "--CircularProgress-progressColor": color,
@@ -27,7 +27,7 @@ const MUICircularProgress = ({ color }) => {
             "--CircularProgress-linecap": "flat",
           }}
         >
-          <Typography sx={{ fontSize: "30px" }}>{value2}%</Typography>
+          <Typography sx={{ fontSize: "30px" }}>{progressValue}%</Typography>
         </CircularProgress>
       </CssVarsProvider>
     </Stack>
