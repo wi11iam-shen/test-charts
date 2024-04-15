@@ -1,6 +1,6 @@
 import React from "react";
 
-const PromoPrediction = () => {
+const OldPromoPrediction = () => {
   return (
     <div className="container mx-auto shadow-lg">
       <div className="flex">
@@ -54,4 +54,4 @@ const PromoPrediction = () => {
   );
 };
 
-export default PromoPrediction;
+export default OldPromoPrediction;

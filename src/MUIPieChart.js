@@ -4,8 +4,8 @@ import { useDrawingArea } from "@mui/x-charts/hooks";
 import { styled } from "@mui/material/styles";
 
 const data = [
-  { value: 5, label: "A" },
-  { value: 10, label: "B" },
+  { value: 10 },
+  { value: 2 },
 ];
 
 const StyledText = styled("text")(({ theme }) => ({
@@ -27,16 +27,20 @@ function PieCenterLabel({ children }) {
 const MUIPieChart = () => {
   return (
     <PieChart
+      colors={['#f3b15e', "#ecf6fd"]}
       series={[
         {
           data,
+          innerRadius: 65,
+          paddingAngle: 4,
+          cornerRadius: 5,
           highlightScope: { faded: "global", highlighted: "item" },
           faded: { innerRadius: 30, additionalRadius: -30, color: "gray" },
         },
       ]}
       height={200}
     >
-      <PieCenterLabel>100%</PieCenterLabel>
+      <PieCenterLabel>{data[0].value}%</PieCenterLabel>
     </PieChart>
   );
 };
