@@ -3912,3 +3912,38 @@
     
     background-color: rgb(34 197 94) !important;
   }
+  .content{
+    background: white;
+    padding: 20px;
+    width: 40%;
+    display: none;
+    height: 30%;
+    flex: auto;
+  }
+  .active-content{
+    display: block
+  }
+  .active-tabs{
+    background: white;
+    border-bottom: 1px solid transparent;
+  }
+  .active-tabs::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% + 2px);
+    height: 5px;
+    background: rgb(88,147, 241);
+  }
+  .tabs{
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  .bloc-tabs{
+    display: flex;
+
+  }
