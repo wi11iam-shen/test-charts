@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import "layout.css";
+@import "css/layout.css";
 
 body {
   margin: 0;
