@@ -3,6 +3,14 @@ import { Stack, Typography, CircularProgress } from "@mui/joy";
 import { useCountUp } from "use-count-up";
 import { CssVarsProvider } from "@mui/joy/styles";
 
+// TO CHANGE BOX SHADOW EASIER:
+// - inspect page
+// - select svg for class="MuiCircularProgress-svg"
+// - look in 'Styles' tab
+// - locate .css-l3osn0-JoyCircularProgress-root
+// - find 'box-shadow'
+// - adjust values as desired  
+
 const MUICircularProgress = ({ color, percentage }) => {
   const { value: progressValue } = useCountUp({
     isCounting: true,
@@ -19,11 +27,11 @@ const MUICircularProgress = ({ color, percentage }) => {
           value={progressValue}
           sx={{
             boxShadow:
-              "inset 5px 21px 5px 11px rgba(0, 0, 0, 0.5), 0px 4px 5px 0px rgba(0, 0, 0, 0.5)",
-            "--CircularProgress-size": "200px",
-            "--CircularProgress-trackThickness": "30px",
+              "inset 0 4px 5px 45px rgba(0, 0, 0, 0.5), 0 4px 5px 0px rgba(0, 0, 0, 0.5)",
+            "--CircularProgress-size": "275px",
+            "--CircularProgress-trackThickness": "45px",
+            "--CircularProgress-progressThickness": "45px",
             "--CircularProgress-progressColor": color,
-            "--CircularProgress-progressThickness": "30px",
             "--CircularProgress-linecap": "flat",
           }}
         >
